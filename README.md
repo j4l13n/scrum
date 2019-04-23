@@ -1,2 +1,2 @@
-# scrum
-srum repository
+# MOTO
+An online moto booking app
