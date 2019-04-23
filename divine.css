@@ -1,0 +1,48 @@
+body{
+	
+}
+
+.mainbox{
+    border:1px solid red;
+	width: 400px;
+    
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.9;
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 30px;
+
+}
+textarea:focus, input:focus , select:focus , option:focus{
+    outline: none;
+}
+.mainbox form{
+	padding:20px;
+
+}
+
+.mainbox input[type="text"],input[type="submit"]{
+	display: block;
+    width: 70%;
+    margin: 10px 0px;
+    border: none;
+    background: none;
+    padding:10px 0px;
+    border-radius: 3px;
+    margin: 10px auto;
+    border:1.5px solid #112F41;
+    text-align: center;
+}
+.mainbox input[type="submit"]:hover{
+    background-color: #4484ce;
+    color:white;
+}
+.mainbox input[type="submit"]{
+    border: 1.5px solid #47AB6C;
+    font-size: 25px;
+    font-weight: bold;;
+}
+.mainbox input[type="submit"]:hover{
+    background-color: #47AB6C;
+}
